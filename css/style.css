@@ -1,0 +1,269 @@
+/* main colors */
+/* red = #61082b */
+/* color1 = #a2d39b */
+/* color2 = #61082b */
+/* color3 = #0093ce */
+/* color4 = #ff1c1c */
+/* color5 = #d5001f */
+/* color6 = #b4d0e7 */
+/* color7 = #0d2481 */
+/* color8 = #ffd830 */
+
+  /* **************** */
+ /*  general style  */
+/* ************** */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-bright-blue{
+  background-color: #b4d0e7;
+}
+
+.text-c-red{
+  color:#61082b;
+}
+
+.container{
+  transition: all 0.5s;
+}
+
+/*  custome btn style */
+
+.btn{ 
+  border-radius: 0px !important;
+}
+
+
+  /* **************** */
+ /*  custom navbar  */
+/* ************** */
+
+.navbarsize-c{
+  padding: 20px !important;
+  background-color: #b4d0e7;
+}
+
+
+.navbarsize-c .nav-c-bg{
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: -55;
+}
+
+.navbarsize-c.navbarsize-c-add {
+  padding: 20px !important;
+}
+
+a.navbrand-c{
+  font-size: 30px !important;
+  color: #000000 !important;
+}
+
+.navitem-c{
+  padding: 20px !important;
+  color: #000000 !important;
+}
+
+.navitemtrail-c{
+  background-color: white;
+  color: #000000;
+  margin-top:15px !important ;
+  margin-left: 30px !important;
+  padding: 5px 20px !important;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .navbar-collapse.show , .navbar-collapse.collapsing {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    z-index: -56;
+    padding: 71px;
+    transition: none;  
+  } 
+ }
+
+
+  /* **************** */
+ /*  custom header  */
+/* ************** */
+
+.promoheader h1{
+  color: #61082b;
+  font-weight: 900;
+}
+
+.promoheader h2{
+  color: #61082b;
+  font-weight: 900;
+}
+
+.promoheader .arrow-link {
+  text-decoration: none;
+}
+
+.menu-buttons-custom{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.anything{
+  height: 800px;
+}
+
+.anything [class*=col-]{
+ height: 25%; 
+}
+
+.anything .highlight{
+  border: rgba(255, 255, 255, 0.5) 10px solid ;
+}
+
+.slide{
+  display: none;
+}
+
+.slide.show{
+  display: block;
+}
+
+#slide_bar .progress-bar {
+  transition: none !important;
+}
+
+
+
+.anything .col1{
+  background-color: #a2d39b;
+}
+
+.anything .col2{
+  background-color: #61082b;
+}
+.anything .col3{
+  background-color: #d5001f;
+}
+.anything .col4{
+  background-color: #b4d0e7;
+}
+.anything .col5{
+  background-color: #0093ce;
+}
+.anything .col6{
+  background-color: #ff1c1c;
+}
+.anything .col7{
+  background-color: #0d2481;
+}
+.anything .col8{
+  background-color: #ffd830;
+}
+.anything .col9{
+  background-color: #f5f5f5;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .anything{
+    height: 300px;
+  }
+  
+  .anything [class*=col-]{
+   height: 50%; 
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .anything{
+    height: 450px;
+    
+  }
+  
+  .anything [class*=col-]{
+   height: 33.33%; 
+  }
+
+  .father-block{
+    position: relative;
+  }
+
+  .son-block{
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: violet;
+    z-index: 1000;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .anything{
+    height: 400px;
+    
+  }
+  
+  .anything [class*=col-]{
+   height: 50%; 
+  }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .anything{
+    height: 600px;
+  }
+}
+
+/* cards */
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .display-md-big{
+    font-size: 40px;
+  }
+}
+
+/* footer */
+.wb-footer-c{
+  background-color: black;
+  /* color: white !important; */
+
+}
+
+.wb-footer-c .footer-item-list{
+    list-style-type:none !important;
+}
+
+.wb-footer-c .container .mini-text-c{
+  color: white !important;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.wb-footer-c .micro-text-c{
+  color: white !important;
+  font-size: 13px;
+line-height: 13px;
+}
